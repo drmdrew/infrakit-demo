@@ -1,0 +1,8 @@
+version: "2"
+
+services:
+    group:
+        image: drmdrew/infrakit-demo:latest
+        entrypoint: /go/src/github.com/docker/infrakit/build/infrakit-group-default
+
+        
